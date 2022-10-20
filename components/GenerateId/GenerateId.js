@@ -12,7 +12,8 @@ const GenerateId = ({}) => {
     level: "",
   });
 
-  const onGenerateId = () => {
+  const onGenerateId = (e) => {
+    e.preventDefault()
     let pr;
     switch (form.program) {
       case "Android Development":

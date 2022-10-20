@@ -29,7 +29,7 @@ const Form = ({ setForm, form, onGenerateId }) => {
 
   return (
     <>
-      <form action="">
+      <form onSubmit={onGenerateId} action="">
         <Stack>
           <Box
             w={`400px`}
@@ -124,7 +124,6 @@ const Form = ({ setForm, form, onGenerateId }) => {
                   bg: "blue.500",
                 }}
                 type="submit"
-                onClick={onGenerateId}
               >
                 Generate Learner&apos;s ID
               </Button>
