@@ -59,7 +59,7 @@ const [form, setForm] = useState({
     return (
       <>
         <div className="wrap">
-          <h1 className='header'>Learner's ID generator</h1>
+          <h1 className='header'>Learner&apos;s ID generator</h1>
           <p className='sub-header'>by Grow</p>
           <div className="form">
             <Form setForm={setForm} form={form} onGenerateId={onGenerateId} />
